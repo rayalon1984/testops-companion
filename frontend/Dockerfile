@@ -1,5 +1,5 @@
 # Base stage for both development and production
-FROM node:20-alpine AS base
+FROM node:26-alpine AS base
 WORKDIR /app
 ENV NODE_ENV=production
 
