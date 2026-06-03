@@ -1,6 +1,6 @@
 # Stage 1: Base
 # Use alpine for minimal footprint
-FROM node:20-alpine AS base
+FROM node:26-alpine AS base
 WORKDIR /app
 # Install OpenSSL (required for Prisma Client)
 RUN apk add --no-cache openssl
